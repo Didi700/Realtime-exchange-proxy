@@ -1,0 +1,7 @@
+# Fichiers compilés Java — ne jamais les mettre sur GitHub
+target/
+*.class
+*.jar
+
+# Fichiers système Mac
+.DS_Store
