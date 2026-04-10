@@ -30,7 +30,6 @@ public class ConsumerPrincipal {
         config.put("bootstrap.servers", "localhost:9092");
 
         // Identifiant du groupe de consommateurs
-        // Tous les consumers d'un même groupe se partagent les partitions
         config.put("group.id", "groupe-consumer-proxy");
 
         // On reçoit des String donc on utilise le StringDeserializer

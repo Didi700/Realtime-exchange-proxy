@@ -1,4 +1,3 @@
-
 package com.proxy;
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
@@ -16,8 +15,6 @@ import java.io.StringReader;
  * -----------------------------
  * Ce fichier gère la connexion à Elasticsearch
  * et l'indexation de chaque message reçu depuis Kafka.
- *
- * Chaque message = un document dans l'index "taux-de-change"
  */
 public class ClientElasticsearch {
 
